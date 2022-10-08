@@ -15,3 +15,9 @@ DESAFIO
 ** Opcionalmente também pode ser feito teste unitário para cada método desenvolvido.
 
 *** Os códigos precisam estar publicados em repositório no github.com e enviado o link do mesmo.
+
+Observações:
+    (1) - Passei bom parte do tempo estilizando e fazendo a funcionar a mudança de um desafio para o outro
+    (2) - O desafio 2 foi o que mais demorei tentando fazer, nunca tinha visto com funciona a validação de CPF e CNPJ
+    (3) - Escolhi usar reactTS pois ja estava estudando ele, então dive uma demora a mais ainda para entender como funciona um array com useState, por exêmplo.
+    (4) - Quando eu via que algo que eu fiz deu certo, eu tentava fazer rapidamente de outra maneira, para ver se funcionava e para estudar mesmo  o código.
