@@ -116,7 +116,7 @@ export function Desafio2() {
   // Faz a verificação de true ou false das funções anteriores para enviar a resposta desejavel.
   // CNPJ
   const validarCNPJ = ()=>{
-    if (TestaCPF(valcpf) == true) {
+    if (TestaCPF(valcnpj) == true) {
       let newAnswer = [...answer];
       newAnswer[1] = "O seu CNPJ é valido";
       setAnswer(newAnswer);
