@@ -1,3 +1,6 @@
+// Desafio 3
+// Criar método que receba o CEP e retorne um objeto com o endereço
+
 import { useState } from 'react';
 import '../App.css'
 
@@ -18,7 +21,8 @@ export function Desafio3() {
       }).then( res=>res.json() ).then(res => setInfos( () => (res["logradouro"]+" "+res["complemento"]+" | "+res["bairro"]+" | "+res["localidade"]+"-"+res["uf"]) )); // Separei apenas as informações desejadas e armazenei como string em uma variável.
     }
   }
-
+  
+  // Formulario em html
   return (
       <div className='card'>
         <h1>Desafio 3</h1>

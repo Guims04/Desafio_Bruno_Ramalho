@@ -1,9 +1,12 @@
+// Desafio 1
+// Criar um método que recebe uma string e retorna somente as letras maiusculas
+
 import { useState } from 'react';
 import '../App.css'
 
 export function Desafio1() {
 
-  // Declarando variaveis de para atualização de informações.
+  // Declarando variaveis para atualização de informações.
   const [answer, setAnswer] = useState(""); // nesse campo o resultado vai ser armazenado e mostrado no final.
   const [texto, setTexto] = useState("");
 
@@ -14,6 +17,7 @@ export function Desafio1() {
     setAnswer(() => (resultado.toString())); // covertendo para string para ser mostrado
   }
 
+  // Formulario em html
   return (
       <div className='card'>
         <h1>Desafio 1</h1>

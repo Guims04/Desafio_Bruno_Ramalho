@@ -1,7 +1,9 @@
+// Area para navegação entre os desafios.
+
 import { useState } from 'react';
 import './App.css'
 
-//Imports dos componentes desafio.
+//Imports dos componentes desafios.
 import { Desafio1 } from './components/Desafio1';
 import { Desafio2 } from './components/Desafio2';
 import { Desafio3 } from './components/Desafio3';
@@ -9,7 +11,7 @@ import { Desafio3 } from './components/Desafio3';
 function App() {
 
   // Declarando variaveis para navegação entre os Desafios
-  // "active" é uma classe de estilo que coloca borda no ponto do desafio atual
+  // "active" é uma classe de estilo que coloca borda para identificar o ponto do desafio atual
   const [active1, setActive1] = useState("active");
   const [active2, setActive2] = useState("");
   const [active3, setActive3] = useState("");

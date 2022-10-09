@@ -1,3 +1,6 @@
+// Desafio 2
+// Criar um método que receba um CPF e outro que receba um CNPJ e retorne se o número é válido
+
 import { useState } from 'react';
 import '../App.css'
 
@@ -116,7 +119,6 @@ export function Desafio2() {
   // Faz a verificação de true ou false das funções anteriores para enviar a resposta desejavel.
   // CNPJ
   const validarCNPJ = ()=>{
-    console.log(TestaCNPJ(valcnpj));
     if (TestaCNPJ(valcnpj) == true) {
       let newAnswer = [...answer];
       newAnswer[1] = "O seu CNPJ é valido";
@@ -128,6 +130,7 @@ export function Desafio2() {
     }
   }
 
+  // Formulario em html
   return (
       <div className='card'>
 
